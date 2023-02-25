@@ -32,12 +32,12 @@
             this.iFormularioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iIFormularioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iIIFormularioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iIIFormularioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.iIIFormularioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,12 +67,21 @@
             this.iIFormularioToolStripMenuItem.Name = "iIFormularioToolStripMenuItem";
             this.iIFormularioToolStripMenuItem.Size = new System.Drawing.Size(103, 24);
             this.iIFormularioToolStripMenuItem.Text = "I Formulario";
+            this.iIFormularioToolStripMenuItem.Click += new System.EventHandler(this.iIFormularioToolStripMenuItem_Click);
             // 
             // iIIFormularioToolStripMenuItem
             // 
             this.iIIFormularioToolStripMenuItem.Name = "iIIFormularioToolStripMenuItem";
             this.iIIFormularioToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.iIIFormularioToolStripMenuItem.Text = "II Formulario";
+            this.iIIFormularioToolStripMenuItem.Click += new System.EventHandler(this.iIIFormularioToolStripMenuItem_Click);
+            // 
+            // iIIFormularioToolStripMenuItem1
+            // 
+            this.iIIFormularioToolStripMenuItem1.Name = "iIIFormularioToolStripMenuItem1";
+            this.iIIFormularioToolStripMenuItem1.Size = new System.Drawing.Size(111, 24);
+            this.iIIFormularioToolStripMenuItem1.Text = "III Formulario";
+            this.iIIFormularioToolStripMenuItem1.Click += new System.EventHandler(this.iIIFormularioToolStripMenuItem1_Click);
             // 
             // label1
             // 
@@ -80,7 +89,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(31, 87);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(694, 39);
+            this.label1.Size = new System.Drawing.Size(666, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "¡Bienvenido al Examen del Primer Parcial!";
             // 
@@ -124,12 +133,6 @@
             this.label5.Size = new System.Drawing.Size(390, 32);
             this.label5.TabIndex = 5;
             this.label5.Text = "Elaboro: Engelbert Santander";
-            // 
-            // iIIFormularioToolStripMenuItem1
-            // 
-            this.iIIFormularioToolStripMenuItem1.Name = "iIIFormularioToolStripMenuItem1";
-            this.iIIFormularioToolStripMenuItem1.Size = new System.Drawing.Size(111, 24);
-            this.iIIFormularioToolStripMenuItem1.Text = "III Formulario";
             // 
             // Menú
             // 

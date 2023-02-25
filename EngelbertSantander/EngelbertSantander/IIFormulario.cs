@@ -50,5 +50,29 @@ namespace EngelbertSantander
             PrecioTextBox.Clear();  
             CantidadTextBox.Clear();    
         }
+
+        private void menúToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menú menu = new Menú();
+            this.Hide();
+            menu.ShowDialog();
+            this.Show();
+        }
+
+        private void iFormularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IFormulario IF = new IFormulario();
+            this.Hide();
+            IF.ShowDialog();
+            this.Show();
+        }
+
+        private void iIIFormularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IIIFormulario IIIF = new IIIFormulario();
+            this.Hide();
+            IIIF.ShowDialog();
+            this.Show();
+        }
     }
 }

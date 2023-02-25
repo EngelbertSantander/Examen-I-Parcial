@@ -75,18 +75,21 @@
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
             this.menúToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.menúToolStripMenuItem.Text = "Menú";
+            this.menúToolStripMenuItem.Click += new System.EventHandler(this.menúToolStripMenuItem_Click);
             // 
             // formularioIIToolStripMenuItem
             // 
             this.formularioIIToolStripMenuItem.Name = "formularioIIToolStripMenuItem";
             this.formularioIIToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.formularioIIToolStripMenuItem.Text = "II Formulario";
+            this.formularioIIToolStripMenuItem.Click += new System.EventHandler(this.formularioIIToolStripMenuItem_Click);
             // 
             // iIIFormularioToolStripMenuItem
             // 
             this.iIIFormularioToolStripMenuItem.Name = "iIIFormularioToolStripMenuItem";
             this.iIIFormularioToolStripMenuItem.Size = new System.Drawing.Size(111, 24);
             this.iIIFormularioToolStripMenuItem.Text = "III Formulario";
+            this.iIIFormularioToolStripMenuItem.Click += new System.EventHandler(this.iIIFormularioToolStripMenuItem_Click);
             // 
             // label1
             // 

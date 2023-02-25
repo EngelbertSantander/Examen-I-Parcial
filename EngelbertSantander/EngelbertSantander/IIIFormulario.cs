@@ -41,5 +41,29 @@ namespace EngelbertSantander
                 }
             }
         }
+
+        private void menúToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menú menu = new Menú();
+            this.Hide();
+            menu.ShowDialog();
+            this.Show();
+        }
+
+        private void iFormularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IFormulario IF = new IFormulario();
+            this.Hide();
+            IF.ShowDialog();
+            this.Show();
+        }
+
+        private void iIFormularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IIFormulario IIF = new IIFormulario();
+            this.Hide();
+            IIF.ShowDialog();
+            this.Show();
+        }
     }
 }

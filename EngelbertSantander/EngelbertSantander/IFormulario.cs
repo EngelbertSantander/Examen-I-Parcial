@@ -29,5 +29,29 @@ namespace EngelbertSantander
                 listBox1.Items.Add (FechaActual.AddMonths(i) + " = " + (200000 * 0.015) * (i+1));
             }
         }
+
+        private void menúToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Menú menu = new Menú();
+            this.Hide();
+            menu.ShowDialog();
+            this.Show();
+        }
+
+        private void formularioIIToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IIFormulario IIF = new IIFormulario();
+            this.Hide();
+            IIF.ShowDialog();
+            this.Show();
+        }
+
+        private void iIIFormularioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IIIFormulario IIIF = new IIIFormulario();
+            this.Hide();
+            IIIF.ShowDialog();
+            this.Show();
+        }
     }
 }
