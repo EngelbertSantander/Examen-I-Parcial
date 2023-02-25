@@ -34,6 +34,7 @@
             this.menúToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formularioIIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iIIFormularioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,14 +42,14 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(215, 52);
+            this.listBox1.Location = new System.Drawing.Point(295, 147);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(193, 196);
             this.listBox1.TabIndex = 6;
             // 
             // CalcularButton
             // 
-            this.CalcularButton.Location = new System.Drawing.Point(215, 267);
+            this.CalcularButton.Location = new System.Drawing.Point(295, 363);
             this.CalcularButton.Name = "CalcularButton";
             this.CalcularButton.Size = new System.Drawing.Size(193, 40);
             this.CalcularButton.TabIndex = 7;
@@ -87,17 +88,31 @@
             this.iIIFormularioToolStripMenuItem.Size = new System.Drawing.Size(111, 24);
             this.iIIFormularioToolStripMenuItem.Text = "III Formulario";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(115, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(536, 16);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Calculo de interés por L200,000.00, a una tasa del 1.5% mensual y con 12 meses de" +
+    " plazo";
+            // 
             // IFormulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.CalcularButton);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "IFormulario";
-            this.Text = "IFormulario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "I Formulario";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -112,5 +127,6 @@
         private System.Windows.Forms.ToolStripMenuItem menúToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem formularioIIToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iIIFormularioToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }

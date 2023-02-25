@@ -16,7 +16,7 @@ namespace EngelbertSantander
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IIFormulario());
+            Application.Run(new IFormulario());
         }
     }
 }
