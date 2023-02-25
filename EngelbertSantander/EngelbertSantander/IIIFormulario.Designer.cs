@@ -34,6 +34,8 @@
             this.iIFormularioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.EjecutarButton = new System.Windows.Forms.Button();
             this.NombreListBox = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +75,7 @@
             // 
             // EjecutarButton
             // 
-            this.EjecutarButton.Location = new System.Drawing.Point(273, 348);
+            this.EjecutarButton.Location = new System.Drawing.Point(225, 337);
             this.EjecutarButton.Name = "EjecutarButton";
             this.EjecutarButton.Size = new System.Drawing.Size(230, 48);
             this.EjecutarButton.TabIndex = 1;
@@ -85,10 +87,31 @@
             // 
             this.NombreListBox.FormattingEnabled = true;
             this.NombreListBox.ItemHeight = 16;
-            this.NombreListBox.Location = new System.Drawing.Point(273, 55);
+            this.NombreListBox.Location = new System.Drawing.Point(225, 108);
             this.NombreListBox.Name = "NombreListBox";
-            this.NombreListBox.Size = new System.Drawing.Size(230, 276);
+            this.NombreListBox.Size = new System.Drawing.Size(230, 212);
             this.NombreListBox.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(4, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(698, 18);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Función que muestra al usuario el nombre cuando sea multiplo de 3, el apellido cu" +
+    "ando sea multiplo de 5 ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(182, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(326, 18);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "y nombre y apellido cuando sea multiplo de 3 y 5";
             // 
             // IIIFormulario
             // 
@@ -96,6 +119,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.NombreListBox);
             this.Controls.Add(this.EjecutarButton);
             this.Controls.Add(this.menuStrip1);
@@ -119,5 +144,7 @@
         private System.Windows.Forms.ToolStripMenuItem iIFormularioToolStripMenuItem;
         private System.Windows.Forms.Button EjecutarButton;
         private System.Windows.Forms.ListBox NombreListBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
